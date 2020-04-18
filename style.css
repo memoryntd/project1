@@ -1,0 +1,78 @@
+html, body{margin: 0;padding: 0;border: 0;width: 95%;height: 100%; background:url(fon.jpg); color: #336699; font-size: 20px;}
+.header{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    color: #ff0099;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-color: #9a9a9a;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.autor{
+    font-size: 18px;
+}
+.tale{
+    font-size: 24px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #aa00dd;
+    font-size: 20px;
+}
+.leftblock a{
+    margin-top: 20px;
+}
+.body{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+.body .topcontent{
+    display: flex;
+}
+
+
+.leftblock{
+    width: 15%;
+    color: #ff0099;
+    font-size: 32px;
+}
+.leftblock .oglav{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #ff0099;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40%;
+}
+.leftblock .apps{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+}
+p{
+    font-size: 100%;
+}
+p::first-letter{
+    display: flex;
+    font-weight: 800;
+    font-size: 180%;
+}
+.redhat{
+    font-weight: 800;
+}
