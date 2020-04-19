@@ -39,7 +39,11 @@ a{
 .body .topcontent{
     display: flex;
 }
-
+img{
+    position: static;
+    width: 40%;
+    height: 40%;
+}
 
 
 .leftblock{
@@ -78,7 +82,9 @@ p.let::first-letter{
     font-weight: 800;
 }
 
-
+.text{
+    float: left;
+}
 .table{
     display: flex;
     justify-content: center;
