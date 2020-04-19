@@ -77,3 +77,36 @@ p.let::first-letter{
 .redhat{
     font-weight: 800;
 }
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border: 1px #6699CC double;
+    width: 80%;
+    border-color: #6699CC;
+    background-color: #fafffa;
+    color: #000;
+}
+td{
+    border: 1px #6699CC double;
+    border-color: #6699CC;
+    background-color: #fafffa;
+}
+caption{
+    font-weight: bold;
+    font-size: 21px;
+    color: #336699;
+}
+.headtable td{
+    background-color: #FFEEEE;
+    font-weight: 800;
+    text-align: center;
+}
+.firsttd{
+    text-align: center;
+}
