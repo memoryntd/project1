@@ -87,9 +87,11 @@ p.let::first-letter{
 }
 .picsleft{
     float: left;
+    margin-right: 1%;
 }
 .picsright{
     float: right;
+    margin-left: 1%;
 }
 img{
     width: 100%;
