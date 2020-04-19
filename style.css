@@ -20,6 +20,21 @@ html, body{margin: 0;padding: 0;border: 0;width: 95%;height: 100%; background:ur
 .tale{
     font-size: 24px;
 }
+.footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    color: #ff0099;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid;
+    border-color: #9a9a9a;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
 
 
 
@@ -31,10 +46,17 @@ a{
 .leftblock a{
     margin-top: 20px;
 }
+.afoot{
+    color: #ff0099;
+}
+.aright{
+    float: right;
+}
 .body{
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
+    margin-bottom: 3%;
 }
 .body .topcontent{
     display: flex;
