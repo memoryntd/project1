@@ -39,11 +39,7 @@ a{
 .body .topcontent{
     display: flex;
 }
-img{
-    position: static;
-    width: 40%;
-    height: 40%;
-}
+
 
 
 .leftblock{
@@ -70,6 +66,10 @@ img{
 .content{
     width: 100%;
 }
+.topcontent{
+    display: flex;
+}
+
 p.let{
     font-size: 100%;
 }
@@ -83,7 +83,17 @@ p.let::first-letter{
 }
 
 .text{
+    width: 100%;
+}
+.picsleft{
     float: left;
+}
+.picsright{
+    float: right;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 .table{
     display: flex;
