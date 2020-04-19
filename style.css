@@ -41,6 +41,7 @@ a{
 }
 
 
+
 .leftblock{
     width: 15%;
     color: #ff0099;
@@ -65,10 +66,10 @@ a{
 .content{
     width: 100%;
 }
-p{
+p.let{
     font-size: 100%;
 }
-p::first-letter{
+p.let::first-letter{
     display: flex;
     font-weight: 800;
     font-size: 180%;
